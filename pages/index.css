@@ -6,6 +6,7 @@
   font-size: 16px;
   line-height: 20px;
 }
+
 .header {
   padding: 30px 80px 40px;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
@@ -101,7 +102,12 @@
   padding: 100px 80px 215px;
 }
 
-recipes__title {
+.recipes__iframe {
+  width: 560px;
+  hieght: 315px;
+  border: none;
+}
+.recipes__title {
   margin: 0 0 28px;
   font-family: "Inter";
   font-style: normal;

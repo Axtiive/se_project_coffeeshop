@@ -87,7 +87,8 @@
   text-decoration: none;
 }
 
-.recipes {
+.recipes,
+.recipes-section {
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
@@ -118,4 +119,115 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.booking-section {
+  position: relative;
+  background-color: #d8eefe;
+  padding: 80px 40px;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 0;
+}
+
+.bubble1 {
+  width: 150px;
+  height: 150px;
+  top: 30px;
+  left: 60px;
+}
+
+.bubble2 {
+  width: 100px;
+  height: 100px;
+  bottom: 40px;
+  right: 80px;
+}
+
+.reservation {
+  position: relative;
+  padding: 100px 0 120px;
+  z-index: 1;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  margin: 8px 0 32px;
+  border: 1px solid #838383;
+  border-radius: 4px;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #3f96f3;
+}
+
+.form__checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.form__button {
+  margin-top: 32px;
+  padding: 15px 30px;
+  background-color: #3f96f3;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form__button:hover {
+  background-color: #2c76c8;
+}
+
+footer {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
 }

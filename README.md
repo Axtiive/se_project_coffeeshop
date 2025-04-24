@@ -1,6 +1,6 @@
 # Triple Peaks Coffee Shop
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+This project is a static coffee shop website built using HTML and CSS. It uses semantic HTML5 structure, flexbox for layout, and custom styling with a block-based CSS methodology.
 
 ## Project features
 
@@ -13,4 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-Add more items to the menu section, complete with images and descriptions, to procive comprehensive view of available offerings.
+-Implement a functional contact form that allows users to send messages directly from the website, enhancing user engagement.
+-Make the website fully responsive for all screen sizes.
+

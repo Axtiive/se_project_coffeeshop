@@ -1,0 +1,27 @@
+.booking-section {
+  position: relative;
+  background-color: #d8eefe;
+  padding: 80px 40px;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 0;
+}
+
+.bubble1 {
+  width: 150px;
+  height: 150px;
+  top: 30px;
+  left: 60px;
+}
+
+.bubble2 {
+  width: 100px;
+  height: 100px;
+  bottom: 40px;
+  right: 80px;
+}

@@ -16,4 +16,4 @@ This project is a static coffee shop website built using HTML and CSS. It uses s
 -Add more items to the menu section, complete with images and descriptions, to procive comprehensive view of available offerings.
 -Implement a functional contact form that allows users to send messages directly from the website, enhancing user engagement.
 -Make the website fully responsive for all screen sizes.
-
+https://axtiive.github.io/se_project_coffeeshop/
